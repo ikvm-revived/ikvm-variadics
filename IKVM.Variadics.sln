@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90150B24-0F40-41BB-95EF-D95F50BF06BE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		GitVersion.yml = GitVersion.yml
+		global.json = global.json
+		IKVM.Variadics.artifacts.msbuildproj = IKVM.Variadics.artifacts.msbuildproj
+		.github\workflows\IKVM.Variadics.yml = .github\workflows\IKVM.Variadics.yml
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKVM.Variadics", "src\IKVM.Variadics\IKVM.Variadics.csproj", "{36A54143-58D4-4B6E-B4DE-205E19E8CA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKVM.Variadics.Tests", "src\IKVM.Variadics.Tests\IKVM.Variadics.Tests.csproj", "{786D8CF7-87EE-4630-9A30-4C7476359531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A54143-58D4-4B6E-B4DE-205E19E8CA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A54143-58D4-4B6E-B4DE-205E19E8CA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A54143-58D4-4B6E-B4DE-205E19E8CA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A54143-58D4-4B6E-B4DE-205E19E8CA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786D8CF7-87EE-4630-9A30-4C7476359531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786D8CF7-87EE-4630-9A30-4C7476359531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786D8CF7-87EE-4630-9A30-4C7476359531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786D8CF7-87EE-4630-9A30-4C7476359531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A03ACB78-6C3F-4E09-BAF1-16E41D5A3945}
+	EndGlobalSection
+EndGlobal
